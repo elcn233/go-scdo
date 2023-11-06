@@ -457,7 +457,7 @@ func ethIntrinsicGas(data []byte) uint64 {
 	}
 
 	// will not overflow, since maximum tx payload size is 32K.
-	gas += nz * params.TxDataNonZeroGas
+	gas += nz * uint64(68)
 	z := uint64(len(data)) - nz
 	gas += z * params.TxDataZeroGas
 
