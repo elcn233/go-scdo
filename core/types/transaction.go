@@ -14,10 +14,10 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/elcn233/go-scdo/common"
+	"github.com/elcn233/go-scdo/crypto"
+	"github.com/elcn233/go-scdo/trie"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/scdoproject/go-scdo/common"
-	"github.com/scdoproject/go-scdo/crypto"
-	"github.com/scdoproject/go-scdo/trie"
 )
 
 // TxType represents transaction type
